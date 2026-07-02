@@ -1,7 +1,7 @@
 function factor_I_mod = get_mod_I_with_shear (MemberType, Bay, Story, SecData, idx)
 
 global MainDirectory
-load(strcat(MainDirectory,'\temp_unpacked'),'Kshearstatus','HStory','E','mu0','WBay')
+load(strcat(MainDirectory,'\temp_unpacked'),'Kshearstatus','Support','HStory','E','mu0','WBay')
 
 if Kshearstatus==1
 

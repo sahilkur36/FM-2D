@@ -1,7 +1,7 @@
 function [FigD]=show_Scope_Dynamic(NumInstability_Flag, Collapse, DATA, nGM_total, GM_No, FigD, Ri)
 
 try
-if GM_No==1 && FigD==0 && Ri==1
+if GM_No==1 && Ri==1 && FigD==0
 	FigD=figure('position',[100 500 450 150],'color','white');%,'AutoResizeChildren', 'off');
 	
     subplot(1,2,1)

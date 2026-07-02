@@ -21,4 +21,4 @@ end
 LOAD.W1    = LOAD.W1    *convfactor;
 LOAD.Wtyp  = LOAD.Wtyp  *convfactor;
 LOAD.Wroof = LOAD.Wroof *convfactor;
-LOAD.Ws    = LOAD.Ws           *convfactor;
+LOAD.Ws    = LOAD.Ws    *convfactor;

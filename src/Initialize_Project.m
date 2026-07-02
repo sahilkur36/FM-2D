@@ -10,7 +10,7 @@ xx= xx(~isspace(xx)); % remove spaces from project name to get opensees file nam
 OpenSEESFileName = [xx,'.tcl'];
 clear xx;
 
-PROJECT.Version             = 5.260603;
+PROJECT.Version             = 5.2607;
 PROJECT.MainDirectory       = MainDirectory;
 PROJECT.ProjectPath         = ProjectPath;
 PROJECT.ProjectName         = ProjectName;
@@ -82,7 +82,6 @@ CONNECTION.a                 = 0;
 CONNECTION.b                 = 0;
 CONNECTION.c                 = 0;
 CONNECTION.SupportGFS        = 2;
-CONNECTION.Kshearstatus      = 0;
 CONNECTION.MFconnectionEven  = 1;
 CONNECTION.MFconnectionOdd   = 1;   
 
@@ -96,6 +95,7 @@ MATERIAL.muC                 = 0;
 MATERIAL.muR                 = 0;
     
 MODEL.DiscritizationOption   = 1;
+MODEL.Kshearstatus           = 0;
 
 RECORDERS.Time          = 0;
 RECORDERS.Disp          = 0;
